@@ -5,6 +5,11 @@ The ENZYMES dataset is used in this project to construct a graph classification 
 
 **Dataset**
 
+Upload dataset using:
+# Load the ENZYMES dataset
+dataset = TUDataset(root='data/ENZYMES', name='ENZYMES', transform=NormalizeFeatures())
+num_classes = dataset.num_classes
+
 - Dataset Name: ENZYMES
 - Total Samples: 600 graphs
 - Nodes: Represent individual atoms in the enzyme's molecular chain.
