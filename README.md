@@ -1,7 +1,7 @@
 # classification-of-enzymes-using-GCN
 Classification of ENZYMES using GCN
 
-The ENZYMES dataset is used in this project to construct a graph classification model. Classifying graph-structured data is the problem at hand. Each graph represents a molecule, and the classifications match those of different enzymes. Graph Convolutional Networks (GCNs) with different layers are used to build models, and their performance is assessed. 
+The ENZYMES dataset is used in this project to construct a graph classification model. Classifying graph-structured data is the problem at hand. Each graph represents a molecule, and the classifications match those of different enzymes. Graph Convolutional Networks (GCNs) with different layers are used to build models, and their performance is assessed.  
 
 **Dataset**
 
