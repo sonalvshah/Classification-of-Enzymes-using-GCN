@@ -6,8 +6,8 @@ The ENZYMES dataset is used in this project to construct a graph classification 
 **Dataset**
 
 Upload dataset using:
-# Load the ENZYMES dataset
 dataset = TUDataset(root='data/ENZYMES', name='ENZYMES', transform=NormalizeFeatures())
+
 num_classes = dataset.num_classes
 
 - Dataset Name: ENZYMES
@@ -17,13 +17,13 @@ num_classes = dataset.num_classes
 - Node Features: Computed parameters for each atom (3 features per node).
 - Classes: 6 enzyme categories.
 
-**Data Split:**
+**Data Split**
 
 - Training: 70%
 - Validation: 15%
 - Testing: 15%
 
-**Preprocessing Steps:**
+**Preprocessing Steps**
 
 Normalization: Node features are normalized using NormalizeFeatures() from torch_geometric.transforms to standardize input values, improving model training.
 
